@@ -15,4 +15,7 @@ install: powerpend
 	rm -f /usr/local/bin
 	rm -rf /opt/powerpend/
 
+release: all
+	tar cvfz snap.tar.gz ../src/
+	mv snap.tar.gz ../release/
 
