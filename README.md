@@ -7,3 +7,6 @@ Then run `make all` followed by `make install`.  Then test the install by runnin
 
 ## Scripts
 In the scripts directory there are a few scripts to make it easier to run powerpend.
+
+## Release
+Release contains a tar.gz file of the powerpend binary. 
