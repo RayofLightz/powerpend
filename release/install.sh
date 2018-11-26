@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'Downloading the tar ball'
-curl https://github.com/RayofLightz/blob/master/release/powerpend.tar.gz
+curl -O https://raw.githubusercontent.com/RayofLightz/powerpend/master/release/powerpend.tar.gz
 
 echo 'Extracting the tar ball'
 tar xfvz powerpend.tar.gz
